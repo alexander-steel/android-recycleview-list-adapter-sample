@@ -21,7 +21,7 @@ class ProjectPageViewModel :
 
     init {
         Log.i("ProjectPageViewModel", "MainPageViewModel Created")
-        loadProjectList("{youre github account}}")
+        loadProjectList("{your github account}}")
     }
 
     override fun onCleared() {
